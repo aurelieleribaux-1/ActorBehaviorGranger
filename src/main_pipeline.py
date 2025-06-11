@@ -1,9 +1,9 @@
 """
-Main pipeline script for DyLoPro analysis.
+Main pipeline script for Time Series analysis using Granger.
 This script contains:
   - Dataset creation functions
   - Preprocessing steps for behavior analysis
-  - Granger causality preparation
+  - Granger causality preparation and calculation
 """
 
 import pandas as pd
