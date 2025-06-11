@@ -31,12 +31,6 @@ def preprocess_behavior_data(df):
         "case_id": "case:concept:name",
         "event_i": "concept:name",
         "timestamp_i": "time:timestamp",
-        "accepted_i": "accepted",
-        "case_outcome": "case_outcome",
-        "case_accepted": "case_accepted",
-        "case_canceled": "case_canceled",
-        "case_refused": "case_refused",
-        "tt_days": "TT"
     }, inplace=True)
     df["time:timestamp"] = pd.to_datetime(df["time:timestamp"])
     return df
