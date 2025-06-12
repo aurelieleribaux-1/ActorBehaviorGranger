@@ -3,7 +3,7 @@ A Python-based pipeline for analyzing BPIC event logs using process mining techn
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. **Install dependencies**:
 
@@ -24,17 +24,17 @@ A Python-based pipeline for analyzing BPIC event logs using process mining techn
 
 ---
 
-## 🛠️ Features
+## Features
 
-- ✅ Reads .xes files using PM4PY
-- ✅ Converts logs to pandas DataFrames
-- ✅ Preprocesses event data for behavioral analysis
-- ✅ Prepares time series for Granger causality analysis
-- ✅ Visualizes dynamic process behavior
+-  Reads .xes files using PM4PY
+-  Converts logs to pandas DataFrames
+-  Preprocesses event data for behavioral analysis
+-  Prepares time series for Granger causality analysis
+-  Visualizes dynamic process behavior
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.8+
 - pm4py
